@@ -1,0 +1,114 @@
+2022-03-09 13:16:02 com.msb.TestLog4j.main(TestLog4j.java:14) TestLog4j.java FATAL fatal message
+2022-03-09 13:16:02 com.msb.TestLog4j.main(TestLog4j.java:15) TestLog4j.java ERROR error message
+2022-03-09 13:16:02 com.msb.TestLog4j.main(TestLog4j.java:16) TestLog4j.java WARN warn message
+2022-03-09 13:18:17 com.msb.TestLog4j.main(TestLog4j.java:14) TestLog4j.java FATAL fatal message
+2022-03-09 13:18:17 com.msb.TestLog4j.main(TestLog4j.java:15) TestLog4j.java ERROR error message
+2022-03-09 13:18:17 com.msb.TestLog4j.main(TestLog4j.java:16) TestLog4j.java WARN warn message
+2022-03-09 13:18:17 com.msb.TestLog4j.main(TestLog4j.java:17) TestLog4j.java INFO info message
+2022-03-09 13:20:33 com.msb.TestLog4j.main(TestLog4j.java:14) TestLog4j.java FATAL fatal message
+2022-03-09 13:20:33 com.msb.TestLog4j.main(TestLog4j.java:15) TestLog4j.java ERROR error message
+2022-03-09 13:20:33 com.msb.TestLog4j.main(TestLog4j.java:16) TestLog4j.java WARN warn message
+2022-03-09 13:20:33 com.msb.TestLog4j.main(TestLog4j.java:17) TestLog4j.java INFO info message
+2022-03-09 13:20:33 com.msb.TestLog4j.main(TestLog4j.java:24) TestLog4j.java ERROR java.lang.ArithmeticException: / by zero
+2022-03-09 21:52:18 com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:53) MyConnectionPool.java FATAL 初始化连接异常 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:51)
+	at com.msb.dao.MyConnectionPool.<clinit>(MyConnectionPool.java:41)
+	at com.msb.dao.BaseDao.baseQuery(BaseDao.java:51)
+	at com.msb.dao.impl.DeptDaoImpl.findAll(DeptDaoImpl.java:18)
+	at com.msb.view.EmpManageSystem.deptInfo(EmpManageSystem.java:54)
+	at com.msb.view.EmpManageSystem.main(EmpManageSystem.java:34)
+2022-03-09 21:52:18 com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:53) MyConnectionPool.java FATAL 初始化连接异常 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:51)
+	at com.msb.dao.MyConnectionPool.<clinit>(MyConnectionPool.java:41)
+	at com.msb.dao.BaseDao.baseQuery(BaseDao.java:51)
+	at com.msb.dao.impl.DeptDaoImpl.findAll(DeptDaoImpl.java:18)
+	at com.msb.view.EmpManageSystem.deptInfo(EmpManageSystem.java:54)
+	at com.msb.view.EmpManageSystem.main(EmpManageSystem.java:34)
+2022-03-09 21:52:18 com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:53) MyConnectionPool.java FATAL 初始化连接异常 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:51)
+	at com.msb.dao.MyConnectionPool.<clinit>(MyConnectionPool.java:41)
+	at com.msb.dao.BaseDao.baseQuery(BaseDao.java:51)
+	at com.msb.dao.impl.DeptDaoImpl.findAll(DeptDaoImpl.java:18)
+	at com.msb.view.EmpManageSystem.deptInfo(EmpManageSystem.java:54)
+	at com.msb.view.EmpManageSystem.main(EmpManageSystem.java:34)
+2022-03-09 21:52:18 com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:53) MyConnectionPool.java FATAL 初始化连接异常 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:51)
+	at com.msb.dao.MyConnectionPool.<clinit>(MyConnectionPool.java:41)
+	at com.msb.dao.BaseDao.baseQuery(BaseDao.java:51)
+	at com.msb.dao.impl.DeptDaoImpl.findAll(DeptDaoImpl.java:18)
+	at com.msb.view.EmpManageSystem.deptInfo(EmpManageSystem.java:54)
+	at com.msb.view.EmpManageSystem.main(EmpManageSystem.java:34)
+2022-03-09 21:52:18 com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:53) MyConnectionPool.java FATAL 初始化连接异常 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:51)
+	at com.msb.dao.MyConnectionPool.<clinit>(MyConnectionPool.java:41)
+	at com.msb.dao.BaseDao.baseQuery(BaseDao.java:51)
+	at com.msb.dao.impl.DeptDaoImpl.findAll(DeptDaoImpl.java:18)
+	at com.msb.view.EmpManageSystem.deptInfo(EmpManageSystem.java:54)
+	at com.msb.view.EmpManageSystem.main(EmpManageSystem.java:34)
+2022-03-09 21:52:18 com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:53) MyConnectionPool.java FATAL 初始化连接异常 
+java.sql.SQLNonTransientConnectionException: Public Key Retrieval is not allowed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:836)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at com.msb.dao.MyConnectionPool.init(MyConnectionPool.java:51)
+	at com.msb.dao.MyConnectionPool.getConnection(MyConnectionPool.java:64)
+	at com.msb.dao.BaseDao.baseQuery(BaseDao.java:51)
+	at com.msb.dao.impl.DeptDaoImpl.findAll(DeptDaoImpl.java:18)
+	at com.msb.view.EmpManageSystem.deptInfo(EmpManageSystem.java:54)
+	at com.msb.view.EmpManageSystem.main(EmpManageSystem.java:34)
